@@ -1,0 +1,12 @@
+name: AxtPvP
+version: 1.0
+main: com.murell.axtpvp.AxtPvPPlugin
+api-version: 1.19
+commands:
+  axtpvp:
+    description: Gib eine Auswahl-Axt oder erstelle eine PvP-Zone.
+    usage: /axtpvp [create <Name>]
+    permission: axtpvp.use
+permissions:
+  axtpvp.use:
+    default: op
